@@ -2,11 +2,30 @@
   "name": "time-bond-alumni",
   "version": "1.0.0",
   "description": "时光纽带 - 校友录平台",
+  "type": "module",
   "scripts": {
-    "dev": "npx live-server --port=3000",
-    "start": "npx serve ."
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
   "keywords": ["alumni", "social", "network"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7",
+    "gsap": "^3.12.4",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.27",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "@types/three": "^0.160.0"
+  }
 }
