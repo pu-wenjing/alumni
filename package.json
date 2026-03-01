@@ -1,0 +1,12 @@
+{
+  "name": "time-bond-alumni",
+  "version": "1.0.0",
+  "description": "时光纽带 - 校友录平台",
+  "scripts": {
+    "dev": "npx live-server --port=3000",
+    "start": "npx serve ."
+  },
+  "keywords": ["alumni", "social", "network"],
+  "author": "",
+  "license": "MIT"
+}
